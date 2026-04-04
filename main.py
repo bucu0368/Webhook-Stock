@@ -92,7 +92,7 @@ async def send_webhook(
 
     # --- Header ---
     header_section = discord.ui.Section(
-        discord.ui.TextDisplay(content=f"# 🍎 BLOXFRUIT LIVE STOCK"),
+        discord.ui.TextDisplay(content=f"### 🍎 BLOXFRUIT LIVE STOCK"),
         discord.ui.TextDisplay(
             content=(
                 f"{event_label}\n"
